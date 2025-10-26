@@ -1,6 +1,6 @@
 // ==== Offline Audio with Range support ====
 // バージョンを上げると配布更新されます
-const CACHE_NAME = "audio-player-v4";
+const CACHE_NAME = "audio-player-v5";
 
 // 必要ファイルを同一オリジンで
 const PRECACHE = [
@@ -107,3 +107,4 @@ self.addEventListener("fetch", (event) => {
     }
   })());
 });
+
